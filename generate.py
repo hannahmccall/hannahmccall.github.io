@@ -27,7 +27,7 @@ if __name__ == "__main__":
             site = Site(title, url, html)
             sites.append(site)
 
-    build_path = Path("..")
+    build_path = Path("./")
 
     env = Environment(loader=FileSystemLoader("."))
     template = env.get_template("template.html")
