@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: Roboto;
+}
+
+.left_panel {
+    width: 33%;
+    min-width: 200px;
+    height: 100%;
+    background-color: #fff;
+    padding-right: 4em;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_panel {
+    width: 70%;
+    max-height: 100%;
+    background-color: #fff;
+    overflow: scroll;
+    float: left;
+}
+
+.main_text {
+    margin-left: 4em;
+    width: 66%;
+    min-width: 400px;
+}
+
+.padding_block {
+    height: 15%;
+    min-height: 100px;
+}
+
+.profile_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("hannah_e_mccall.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.navigation {
+    margin-top: 2em;
+}
+
+.navigation a {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: #333;
+    background-color: #FFF;
+    width: 95%;
+    padding: 0.5em;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 1em;
+    padding-right: 10px;
+    border-right: 6px solid #fff;
+    transition-duration: 100ms;
+    transition-property: border-right;
+}
+
+.navigation a:visited {
+    color: #333;
+}
+
+.navigation a:hover {
+    background-color: #fff;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-right: 10px;
+    border-right: 6px solid #04a;
+    transition-duration: 100ms;
+    transition-property: border-right;
+}

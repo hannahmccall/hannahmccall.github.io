@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono" />
+
+    <link rel="stylesheet" href="source/style.css" />
+    <link rel="stylesheet" href="source/style_desktop.css" , media="screen and (min-width: 800px)" />
+    <link rel="stylesheet" href="source/style_mobile.css" , media="screen and (max-width: 800px)" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="left_panel">
+            <div class="profile_box">
+                <div class="padding_block"></div>
+                <div class="profile_pic"></div>
+                <span class="name">{{ info.name }}</span>
+                <span class="prof">{{ info.profession }}</span>
+                <span class="email">{{ info.email }}</span>
+                <div class="navigation">
+                    {% for link in links %}
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="main_panel">
+            <div class="main_text">
+                <div class="padding_block"></div>
+                {{ content }}
+                <div class="padding_block"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
