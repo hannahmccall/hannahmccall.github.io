@@ -40,9 +40,9 @@ body {
 }
 
 .profile_pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 210px;
+    height: 350px;
+    border-radius: 0%;
     background-image: url("hannah_e_mccall.jpg");
     background-size: cover;
     background-position: center;
@@ -76,12 +76,13 @@ body {
     color: #333;
 }
 
+
 .navigation a:hover {
     background-color: #fff;
     margin-bottom: 6px;
     margin-top: 6px;
-    padding-right: 10px;
+    <!--padding-right: 10px;-->
     border-right: 6px solid #04a;
     transition-duration: 100ms;
-    transition-property: border-right;
+    <!--transition-property: border-right;-->
 }

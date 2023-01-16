@@ -10,7 +10,7 @@ Site = namedtuple("Site", ["title", "url", "content"])
 
 if __name__ == "__main__":
     info = Info(
-        "Hannah E. McCall", "Astrophysics PhD Candidate", "hannahemccall@email.com"
+        "Hannah E. McCall", "Astrophysics PhD Candidate", "hannahmccall@uchicago.edu"
     )
 
     contents = sorted(glob("content/*.md"))
