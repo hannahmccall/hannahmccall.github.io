@@ -81,8 +81,8 @@ body {
     background-color: #fff;
     margin-bottom: 6px;
     margin-top: 6px;
-    <!--padding-right: 10px;-->
+    padding-right: 10px;
     border-right: 6px solid #04a;
     transition-duration: 100ms;
-    <!--transition-property: border-right;-->
+    transition-property: border-right;
 }
