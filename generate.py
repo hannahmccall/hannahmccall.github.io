@@ -8,6 +8,17 @@ from pathlib import Path
 Info = namedtuple("Info", ["name", "profession", "email"])
 Site = namedtuple("Site", ["title", "url", "content"])
 
+def replace_umlauts(html: str) -> str:
+    """Replaces German umlauts with their HTML entities"""
+    html = html.replace("ä", "&auml;")
+    html = html.replace("ö", "&ouml;")
+    html = html.replace("ü", "&uuml;")
+    html = html.replace("Ä", "&Auml;")
+    html = html.replace("Ö", "&Ouml;")
+    html = html.replace("Ü", "&Uuml;")
+    html = html.replace("ß", "&szlig;")
+    return html
+
 if __name__ == "__main__":
     info = Info(
         "Hannah E. McCall", "Astrophysics PhD Candidate", "hannahmccall@uchicago.edu"
@@ -19,7 +30,7 @@ if __name__ == "__main__":
         with open(content, "r") as f:
             content = f.read()
             title = content.splitlines()[0].strip("# ")
-            html = markdown2.markdown(content, extras=["tables"])
+            html = replace_umlauts(markdown2.markdown(content, extras=["tables"]))
             if i == 0:
                 url = "index.html"
             else:

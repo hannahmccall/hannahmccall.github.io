@@ -13,7 +13,7 @@ body {
     display: block;
     font-family: Roboto Condensed;
     margin-top: .5em;
-    color: #04a;
+    color: #048;
 }
 
 .prof {
@@ -21,7 +21,7 @@ body {
     display: block;
     font-family: Roboto Condensed;
     margin-top: .25em;
-    color: #04a;
+    color: #048;
 }
 
 .email {
@@ -29,16 +29,16 @@ body {
     display: block;
     font-family: Roboto Mono;
     margin-top: 1.0em;
-    color: #04a;
+    color: #048;
 }
 
 .main_text h1 {
     font-family: Roboto Condensed;
-    color: #04a;
+    color: #048;
 }
 
 .main_text a {
-    color: #04a;
+    color: #048;
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .profile_pic {
-    width: 210px;
+    width: 215px;
     height: 350px;
     border-radius: 0%;
     background-image: url("hannah_e_mccall.jpg");
@@ -68,7 +68,7 @@ body {
 .main_text th {
     font-weight: 800;
     padding: 0.5em;
-    border-bottom: 2px solid #04a;
+    border-bottom: 2px solid #048;
 }
 
 .main_text td {

@@ -10,7 +10,7 @@
 
 .left_panel {
     flex-grow: 0.4;
-    background-color: #fff;
+    background-color: #E6E0D5;
     text-align: left;
     display: block;
     background-blend-mode: darken;
@@ -57,7 +57,7 @@
     font-size: 1.2em;
     margin-top: 1em;
     color: #333;
-    background-color: #FFF;
+    background-color: #E6E0D5;
     width: auto;
     padding: 0.5em;
     text-align: right;
@@ -66,7 +66,7 @@
     margin-bottom: 6px;
     padding-bottom: 4px;
     transition-duration: 100ms;
-    border-bottom: 6px solid #fff;
+    border-bottom: 6px solid #CCC;
     transition-property: padding-bottom, border-bottom;
 }
 
@@ -75,11 +75,11 @@
 }
 
 .navigation a:hover {
-    background-color: #fff;
+    background-color: #E6E0D5;
     margin-bottom: 6px;
     margin-top: 6px;
     padding-bottom: 4px;
-    border-bottom: 6px solid #04a;
+    border-bottom: 6px solid #048;
     transition-duration: 100ms;
     transition-property: padding-bottom, border-bottom;
 }

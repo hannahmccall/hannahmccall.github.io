@@ -18,7 +18,7 @@ body {
     width: 33%;
     min-width: 200px;
     height: 100%;
-    background-color: #fff;
+    background-color: #E6E0D5;
     padding-right: 4em;
     text-align: right;
     display: flex;
@@ -63,7 +63,7 @@ body {
     font-size: 1.2em;
     margin-top: 1em;
     color: #333;
-    background-color: #FFF;
+    background-color: #E6E0D5;
     width: 95%;
     padding: 0.5em;
     text-align: right;
@@ -72,7 +72,7 @@ body {
     margin-bottom: 6px;
     margin-right: 1em;
     padding-right: 10px;
-    border-right: 6px solid #fff;
+    border-right: 6px solid #CCC;
     transition-duration: 100ms;
     transition-property: border-right;
 }
@@ -83,11 +83,11 @@ body {
 
 
 .navigation a:hover {
-    background-color: #fff;
+    background-color: #E6E0D5;
     margin-bottom: 6px;
     margin-top: 6px;
     padding-right: 10px;
-    border-right: 6px solid #04a;
+    border-right: 6px solid #048;
     transition-duration: 100ms;
     transition-property: border-right;
 }
