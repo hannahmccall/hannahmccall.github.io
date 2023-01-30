@@ -17,7 +17,20 @@
                 <div class="profile_pic"></div>
                 <span class="name">{{ info.name }}</span>
                 <span class="prof">{{ info.profession }}</span>
-                <span class="email">{{ info.email }}</span>
+                <div class="email">
+                    <a href="mailto:{{ info.email }}">
+                        <div style="background-image: url('email.png');" class="icon"></div>
+                    </a>
+                    <a href="{{ info.linkedin }}">
+                        <div style="background-image: url('linkedin.png');" class="icon"></div>
+                    </a>
+                    <a href="{{ info.github }}">
+                        <div style="background-image: url('github.png');" class="icon"></div>
+                    </a>
+                    <a href="{{ info.orcid }}">
+                        <div style="background-image: url('orcid.png');" class="icon"></div>
+                    </a>
+                </div>
                 <div class="navigation">
                     {% for link in links %}
                     <a href="{{ link.url }}">{{ link.title }}</a>

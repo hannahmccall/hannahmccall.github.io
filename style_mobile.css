@@ -38,8 +38,8 @@
 
 .profile_pic {
     width: 210px;
-    height: 350px;
-    border-radius: 0%;
+    height: 210px;
+    border-radius: 50%;
     background-image: url("hannah_e_mccall.jpg");
     background-size: cover;
     background-position: center;

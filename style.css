@@ -3,7 +3,7 @@ body {
 }
 
 .site-header {
-    border-top:5px solid #424242;
+    border-top: 5px solid #424242;
     position: relative;
 }
 
@@ -30,6 +30,27 @@ body {
     font-family: Roboto Mono;
     margin-top: 1.0em;
     color: #048;
+}
+
+.email a {
+    text-decoration: none;
+    display: inline-block;
+    opacity: 50%;
+    transition: opacity 100ms;
+}
+
+.email a:hover {
+    opacity: 100%;
+    transition: opacity 100ms;
+}
+
+.icon {
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 0.4em;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
 }
 
 .main_text h1 {

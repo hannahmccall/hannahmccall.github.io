@@ -5,8 +5,11 @@ from glob import glob
 from pathlib import Path
 
 
-Info = namedtuple("Info", ["name", "profession", "email"])
+Info = namedtuple(
+    "Info", ["name", "profession", "email", "linkedin", "github", "orcid"]
+)
 Site = namedtuple("Site", ["title", "url", "content"])
+
 
 def replace_umlauts(html: str) -> str:
     """Replaces German umlauts with their HTML entities"""
@@ -19,9 +22,15 @@ def replace_umlauts(html: str) -> str:
     html = html.replace("ß", "&szlig;")
     return html
 
+
 if __name__ == "__main__":
     info = Info(
-        "Hannah E. McCall", "Astrophysics PhD Candidate", "hannahmccall@uchicago.edu"
+        name="Hannah E. McCall",
+        profession="Astrophysics PhD Candidate",
+        email="hannahmccall@uchicago.edu",
+        linkedin="https://www.linkedin.com/in/hannah-mccall-772194165/",
+        github="https://github.com/hannahmccall",
+        orcid="https://orcid.org/0000-0003-3537-3491",
     )
 
     contents = sorted(glob("content/*.md"))
