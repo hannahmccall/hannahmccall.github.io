@@ -1,9 +1,9 @@
 # Contact
 
-Email: <a href="mailto:hannahmccall at uchicago dot edu">hannahmccall at uchicago dot edu</a>
+### Email:
+<a href="mailto:hannahmccall at uchicago dot edu">hannahmccall at uchicago dot edu</a>
 
-OrcID: https://orcid.org/0000-0003-3537-3491
-
+### Address:
 Department of Astronomy and Astrophysics  
 The University of Chicago  
 William Eckhardt Research Center, room 566  
