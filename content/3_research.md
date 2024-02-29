@@ -10,6 +10,6 @@ The figure above is an example from <a href="https://academic.oup.com/mnras/arti
 
 ### Recent publication: View of the Virgo Cluster with SRG/eROSITA
 
-<img src="eROslide.png"  width="100%" height="350px">
+<img src="eROslide.png"  width="80%" height="400px">
 
 eROSITA was launched in 2019 with a main science goal of detecting the hot intracluster medium (ICM) of galaxy groups and clusters. Our closest cluster neighbor, Virgo, is a perfect target for a detailed study of the ICM, and was observed by eROSITA during its four complete all-sky surveys. With its observations, we were able to identify the full extent of two large cold fronts in Virgo, measure the gas clumping, and report on extended emission beyond M49. Check out the paper <a href="https://arxiv.org/abs/2401.17296">here!</a>
