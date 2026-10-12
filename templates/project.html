@@ -1,0 +1,12 @@
+<article class="research-card" aria-labelledby="project-${number}-title">
+  <a class="research-image" href="${image_full}" aria-label="${image_link_label}">
+    <img src="${image}" width="${image_width}" height="${image_height}" alt="${image_alt}" loading="lazy" decoding="async">
+    <span class="image-caption">${image_caption}<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 4h6v6M4 14v6h6M20 4l-6 6M4 20l6-6"/></svg></span>
+  </a>
+  <div class="research-card-body">
+    <p class="eyebrow project-kicker">${kicker}</p>
+    <h3 id="project-${number}-title">${title}</h3>
+    <div class="prose">${body}</div>
+    <div class="project-links">${links}</div>
+  </div>
+</article>
