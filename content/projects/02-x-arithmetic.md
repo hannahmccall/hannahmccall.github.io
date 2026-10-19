@@ -18,4 +18,4 @@ url = "https://www.nasa.gov/general/painting-galaxy-clusters-by-numbers-and-phys
 label = "Code on GitHub"
 url = "https://github.com/hannahmccall/xarithmetic"
 +++
-Black holes leave intricate structures in the hot gas around them. I applied **X-arithmetic**, an image-analysis technique, to 15 galaxy groups and clusters observed with Chandra, and demonstrated its use in cosmological simulations.
+Black holes in galaxy clusters create structures in the hot gas around them. I applied **X-arithmetic**, an image-analysis technique, to 15 galaxy groups and clusters observed with Chandra to efficiently identify the nature of these structures.

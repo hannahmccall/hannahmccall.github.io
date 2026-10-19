@@ -2,7 +2,7 @@
 label = "CV"
 cv_file = "files/hannah-mccall-cv.pdf"
 cv_label = "Download CV"
-cv_note = "PDF · 2024 edition"
+cv_note = "PDF · 2-page 2026 edition"
 +++
 ### University of Chicago
 
@@ -10,7 +10,7 @@ cv_note = "PDF · 2024 edition"
 
 PhD, Astronomy & Astrophysics · In progress
 
-Galaxy clusters and AGN feedback.
+Thesis: X-ray View of the Interplay Between Active Galactic Nuclei and their Host Halos.
 
 ### Universität Bonn
 
